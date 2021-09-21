@@ -70,7 +70,6 @@ document.addEventListener('DOMContentLoaded',() => {
     const startBtn = document.querySelector('.button')
 
     // 変数
-
     let nextRandom = 0
     let currentRotation = 0
     let random = Math.floor(Math.random() * Tetrominoes.length)
@@ -229,7 +228,7 @@ document.addEventListener('DOMContentLoaded',() => {
     }
     const mini_squares = Array.from(document.querySelectorAll('.mini-grid div'))
 
-    // 回転していない状態のテトロミノ
+    // 回転していない状態のテトロミノを定義
     const NextTetrominoes = [
         [1,mini_width + 1,mini_width * 2 + 1,2], //lTetromino
         [0,mini_width,mini_width + 1,mini_width * 2 + 1], //zTetromino
