@@ -1,0 +1,41 @@
+.container {
+    margin-top: 20px;
+    display: flex;
+}
+
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: solid 0.1px blue; */
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+    background-color:lavender;
+}
+
+.grid .taken {
+    background-color:black;
+}
+
+.mini-grid {
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: solid 0.1px chocolate; */
+}
+
+.mini-grid div {
+    width: 20px;
+    height: 20px;
+    background-color:lavender;
+}
+
+.tetromino {
+    background-color: purple;
+}
